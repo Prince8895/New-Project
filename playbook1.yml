@@ -5,4 +5,9 @@
   - name: istall apche2
     apt:
      name: apache2
+     state: present
+
+  - name: install ubuntu 18.04
+    apt: 
+     name: ubuntu 
      state: present 
